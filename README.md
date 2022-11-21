@@ -24,16 +24,16 @@ Run command below to obtain the extracted image region features, object tags, an
 wget -O azcopy_v10.tar.gz https://aka.ms/downloadazcopy-v10-linux && tar -xf azcopy_v10.tar.gz --strip-components=1
 
 # VQA
-./azcopy copy https://biglmdiag.blob.core.windows.net/oscar/datasets/vqa.zip ./datasets
+./azcopy copy https://biglmdiag.blob.core.windows.net/oscar/datasets/vqa.zip ./datasets/
 unzip ./datasets/vqa.zip -d ./datasets/
 # GQA
-./azcopy copy https://biglmdiag.blob.core.windows.net/oscar/datasets/GQA.zip ./datasets
+./azcopy copy https://biglmdiag.blob.core.windows.net/oscar/datasets/GQA.zip ./datasets/
 unzip ./datasets/GQA.zip -d ./datasets/
 # NLVR2
-./azcopy copy https://biglmdiag.blob.core.windows.net/oscar/datasets/nlvr2.zip ./datasets
+./azcopy copy https://biglmdiag.blob.core.windows.net/oscar/datasets/nlvr2.zip ./datasets/
 unzip ./datasets/nlvr2.zip -d ./datasets/
 # Image-Text Retrieval
-./azcopy copy https://biglmdiag.blob.core.windows.net/oscar/datasets/coco_ir.zip ./datasets
+./azcopy copy https://biglmdiag.blob.core.windows.net/oscar/datasets/coco_ir.zip ./datasets/
 unzip ./datasets/coco_ir.zip -d ./datasets/
 ```
 
